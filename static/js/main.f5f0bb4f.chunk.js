@@ -1,2 +1,0 @@
-(window["webpackJsonpgithub-website"]=window["webpackJsonpgithub-website"]||[]).push([[0],[,,,function(e,n,t){e.exports=t(4)},function(e,n,t){"use strict";t.r(n);var o=t(0),r=t.n(o),u=t(2);t.n(u).a.render(r.a.createElement(function(e){return r.a.createElement("div",null,"Fluent Workout Logger")},null),document.querySelector("#root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.f5f0bb4f.chunk.js.map
