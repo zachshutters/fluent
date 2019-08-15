@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import HomePage from './pages/HomePage';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+/**
+ * webpack packs it all together
+ */
+
+ /**
+  * const React = require('react')
+  *   vs
+  * import React from 'react'
+  * 
+  * es2015 modules  - import React from 'react'
+  *     - set of rules for how code is shared between js files
+  * 
+  * commonjs modules  - const React = require('react')
+  *     - a diff set of rules for how code is shared between js files
+  */
+
+const App = (props) => {
+    return (
+        <HomePage />
+    );
+};
+
+ReactDOM.render(<App />, document.querySelector('#root'));
